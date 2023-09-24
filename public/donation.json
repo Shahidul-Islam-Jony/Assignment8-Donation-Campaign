@@ -1,0 +1,123 @@
+[
+    { 
+        "image": "https://i.ibb.co/MDfBjNy/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#AEC7FF",
+        "card_bg": "#D9E5FF",
+        "text_color": "#0052FF ",
+        "description": "Prioritize your well-being with our range of health products and supplements. From vitamins to fitness equipment, we've got you covered on your journey to a healthier life. Take the first step towards a better you today!",
+        "price": "$290"
+    },
+    {
+        "image": "https://i.ibb.co/XZpw0Wj/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#FFC4C5",
+        "card_bg": "#FFE3E4",
+        "text_color": "#FF444A",
+        "description": "Unlock the door to knowledge and personal growth with our educational resources. Whether you're a student or a lifelong learner, our books, courses, and tools will empower you to reach your full potential. Invest in your future now!",
+        "price": "$150"
+    },
+    {
+        "image": "https://i.ibb.co/3zTr5df/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#D4ECC2 ",
+        "card_bg": "#EBF6E2",
+        "text_color": "#79C23F",
+        "description": "Elevate your style game with our trendy clothing collection. From chic dresses to comfortable casual wear, we have the perfect outfit for every occasion. Embrace fashion and express yourself with confidence!",
+        "price": "$200"
+    },
+    {
+        "image": "https://i.ibb.co/qjTCbyc/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#FDD2C4",
+        "card_bg": "#FEEAE4",
+        "text_color": "#F87147",
+        "description": "Indulge your taste buds in a culinary adventure like no other. Our diverse menu of delectable dishes from around the world will tantalize your senses and leave you craving for more. Experience the joy of food today!",
+        "price": "$125"
+    },
+    {
+        "image": "https://i.ibb.co/MDfBjNy/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#AEC7FF",
+        "card_bg": "#D9E5FF",
+        "text_color": "#0052FF ",
+        "description": "Prioritize your well-being with our range of health products and supplements. From vitamins to fitness equipment, we've got you covered on your journey to a healthier life. Take the first step towards a better you today!",
+        "price": "$290"
+    },
+    {
+        "image": "https://i.ibb.co/XZpw0Wj/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#FFC4C5",
+        "card_bg": "#FFE3E4",
+        "text_color": "#FF444A",
+        "description": "Unlock the door to knowledge and personal growth with our educational resources. Whether you're a student or a lifelong learner, our books, courses, and tools will empower you to reach your full potential. Invest in your future now!",
+        "price": "$150"
+    },
+    {
+        "image": "https://i.ibb.co/3zTr5df/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#D4ECC2 ",
+        "card_bg": "#EBF6E2",
+        "text_color": "#79C23F",
+        "description": "Elevate your style game with our trendy clothing collection. From chic dresses to comfortable casual wear, we have the perfect outfit for every occasion. Embrace fashion and express yourself with confidence!",
+        "price": "$200"
+    },
+    {
+        "image": "https://i.ibb.co/qjTCbyc/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#FDD2C4",
+        "card_bg": "#FEEAE4",
+        "text_color": "#F87147",
+        "description": "Indulge your taste buds in a culinary adventure like no other. Our diverse menu of delectable dishes from around the world will tantalize your senses and leave you craving for more. Experience the joy of food today!",
+        "price": "$125"
+    },
+    {
+        "image": "https://i.ibb.co/MDfBjNy/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#AEC7FF",
+        "card_bg": "#D9E5FF",
+        "text_color": "#0052FF ",
+        "description": "Prioritize your well-being with our range of health products and supplements. From vitamins to fitness equipment, we've got you covered on your journey to a healthier life. Take the first step towards a better you today!",
+        "price": "$290"
+    },
+    {
+        "image": "https://i.ibb.co/XZpw0Wj/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#FFC4C5",
+        "card_bg": "#FFE3E4",
+        "text_color": "#FF444A",
+        "description": "Unlock the door to knowledge and personal growth with our educational resources. Whether you're a student or a lifelong learner, our books, courses, and tools will empower you to reach your full potential. Invest in your future now!",
+        "price": "$150"
+    },
+    {
+        "image": "https://i.ibb.co/3zTr5df/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#D4ECC2 ",
+        "card_bg": "#EBF6E2",
+        "text_color": "#79C23F",
+        "description": "Elevate your style game with our trendy clothing collection. From chic dresses to comfortable casual wear, we have the perfect outfit for every occasion. Embrace fashion and express yourself with confidence!",
+        "price": "$200"
+    },
+    {
+        "image": "https://i.ibb.co/qjTCbyc/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#FDD2C4",
+        "card_bg": "#FEEAE4",
+        "text_color": "#F87147",
+        "description": "Indulge your taste buds in a culinary adventure like no other. Our diverse menu of delectable dishes from around the world will tantalize your senses and leave you craving for more. Experience the joy of food today!",
+        "price": "$125"
+    }
+    
+]
