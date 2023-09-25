@@ -8,7 +8,7 @@ const Navbar = () => {
         <NavLink to="/statistics" className={({ isPending, isActive }) => isPending ? 'pending' : isActive ? 'text-red-500 underline' : ''}>Statistics</NavLink>
     </div>
     return (
-        <div className="w-4/5 mx-auto pt-5">
+        <div className="w-4/5 pt-5 z-10 mx-auto">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <img src={logo} alt="" />
