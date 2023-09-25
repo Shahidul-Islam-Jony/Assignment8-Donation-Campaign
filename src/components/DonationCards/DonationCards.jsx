@@ -31,12 +31,12 @@ const DonationCards = ({ content }) => {
         <div>
             <div style={cardStyle} className="card card-side">
                 <figure><img src={image.link3} className='h-56' alt={category} /></figure>
-                <div className="card-body h-56">
+                <div className="card-body">
                     <h3 style={categoryStyle}>{category}</h3>
                     <h2 className='text-2xl font-bold'>{title}</h2>
                     <p style={textColor} className='text-base font-bold mt-2 mb-4'>{price}</p>
-                    <div className="card-actions justify-start border-2">
-                       <Link style={btn}>View Details</Link>
+                    <div className="card-actions justify-start">
+                       <Link to={`/donationDetails/${category}`} style={btn}>View Details</Link>
                     </div>
                 </div>
             </div>

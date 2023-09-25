@@ -1,32 +1,46 @@
-import { useLoaderData } from "react-router-dom";
 import { getDataFromLS } from "../../components/LocalStorage/LocalStorage";
 import { useEffect, useState } from "react";
 import DonationCards from "../../components/DonationCards/DonationCards";
 
 const Donation = () => {
-    const contents = useLoaderData();
+    const [contents, setContents] = useState([]);
+    const [isShowAll, setIsShowAll] = useState(false);
 
-    const [donatedContents,setDonatedContents]= useState([]);
-    useEffect(()=>{
+    useEffect(() => {
+        fetch('../../../public/donation.json')
+            .then(res => res.json())
+            .then(data => setContents(data))
+    }, [])
+
+    const [donatedContents, setDonatedContents] = useState([]);
+    useEffect(() => {
         const donatedData = getDataFromLS();
         const cart = [];
-        for(const data of donatedData){
-            const content = contents.find(content=>content.category === data);
-            if(content){
+        for (const data of donatedData) {
+            const content = contents.find(content => content.category === data);
+            if (content) {
                 cart.push(content);
             }
         }
         setDonatedContents(cart);
-    },[contents])
-   
-// console.log(donatedContents);
+    }, [contents])
+
+    // console.log(donatedContents);
 
     return (
-        <div className="w-11/12 grid grid-cols-2 my-28 gap-6 mx-auto">
+        <>
+            <div className="w-11/12 grid grid-cols-2 mt-28 mb-10 gap-6 mx-auto">
+                {
+                    // donatedContents.length !== 0 ?donatedContents.map((content, idx) => <DonationCards key={idx} content={content}></DonationCards>) : <p className="text-3xl font-bold">You have not donate yet</p>
+
+                    donatedContents.length !== 0 ?isShowAll?donatedContents.map((content, idx) => <DonationCards key={idx} content={content}></DonationCards>): donatedContents.slice(0,4).map((content, idx) => <DonationCards key={idx} content={content}></DonationCards>) : <p className="text-3xl font-bold">You have not donate yet</p>
+
+                }
+            </div>
             {
-                donatedContents?.map((content,idx)=><DonationCards key={idx} content={content}></DonationCards>)
+                donatedContents.length > 4 && <div className={"flex justify-center mb-20"}><button onClick={()=>setIsShowAll(!isShowAll)} className={`${isShowAll&&"hidden"} bg-green-600 rounded-lg text-white w-28 h-12 font-semibold px-7`}>See All</button></div>
             }
-        </div>
+        </>
     );
 };
 
