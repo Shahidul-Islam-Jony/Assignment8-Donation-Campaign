@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="grid grid-cols-4 my-24 gap-6 w-4/5 mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-24 gap-6 w-4/5 mx-auto">
                 {
                     contents.map((content,idx)=><CategoryCards key={idx} content={content}></CategoryCards>)
                 }

@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
+
 const CategoryCards = ({ content }) => {
     // console.log(content);
     const { image, title, category, category_bg, card_bg, text_color } = content;
+
 
     const cardStyle = {
         backgroundColor: card_bg,
@@ -23,9 +25,9 @@ const CategoryCards = ({ content }) => {
 
     return (
         <div>
-            <Link>
+            <Link to={`/donationDetails/${category}`}>
                 <div style={cardStyle} className="card rounded-lg card-compact">
-                    <figure><img className='' src={image} alt={category} /></figure>
+                    <figure><img className='' src={image.link1} alt={category} /></figure>
                     <div className="card-body">
                         <h2 style={categoryStyle} className="card-title">{category}</h2>
                         <h2 style={textStyle}>{title}</h2>
