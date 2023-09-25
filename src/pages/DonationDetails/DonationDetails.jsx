@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import swal from "sweetalert";
 
 const DonationDetails = () => {
     const categoryDetails = useParams();
@@ -22,12 +23,16 @@ const DonationDetails = () => {
         borderRadius:"4px",
     }
 
+    const handleDonateBtn=()=>{
+        swal("Thank You", "Your Donation has been Successful", "success");
+    }
+
     return (
         <div className="mt-24 w-4/5 mx-auto">
             <div className="relative">
                 <img src={image?.link2} className="w-full z-50 rounded-lg  mx-auto h-[700px]" alt="" />
                 <div className="absolute z-30 bottom-0 p-9 bg-black bg-opacity-40 w-full">
-                    <button className="text-xl font-bold" style={btnStyle}>Donate {price}</button>
+                    <button onClick={handleDonateBtn} className="text-xl font-bold" style={btnStyle}>Donate {price}</button>
                 </div>
             </div>
             <div className="mt-14">
