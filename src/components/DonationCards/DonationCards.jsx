@@ -6,6 +6,7 @@ const DonationCards = ({ content }) => {
 
     const cardStyle = {
         backgroundColor: card_bg,
+        height:'220px'
     }
     const textColor = {
         color: text_color,
@@ -30,13 +31,13 @@ const DonationCards = ({ content }) => {
     return (
         <div>
             <div style={cardStyle} className="card flex-col md:flex-row lg:flex-row card-side">
-                <figure><img src={image.link3} className='h-full' alt={category} /></figure>
-                <div className="card-body">
+                <figure><img src={image.link3} className='w-60 h-56' alt={title} /></figure>
+                <div className="card-body p-6">
                     <h3 style={categoryStyle}>{category}</h3>
                     <h2 className='text-2xl font-bold'>{title}</h2>
                     <p style={textColor} className='text-base font-bold mt-2 mb-4'>{price}</p>
                     <div className="card-actions justify-start">
-                       <Link to={`/donationDetails/${category}`} style={btn}>View Details</Link>
+                       <Link to={`/donationDetails/${title}`} style={btn}>View Details</Link>
                     </div>
                 </div>
             </div>

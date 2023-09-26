@@ -4,17 +4,18 @@ import swal from "sweetalert";
 import { setDataInLS } from "../../components/LocalStorage/LocalStorage";
 
 const DonationDetails = () => {
-    const categoryDetails = useParams();
+    const titleDetails = useParams();
+    // console.log(titleDetails);
     const [content, setContent] = useState([]);
     useEffect(() => {
         fetch('../../../public/donation.json')
         .then(res=>res.json())
-        .then(contents=>setContent(contents?.find(data => data.category === categoryDetails.category)))
-    }, [categoryDetails.category])
+        .then(contents=>setContent(contents?.find(data => data.title === titleDetails.title)))
+    }, [titleDetails.title])
 
     // console.log(contents);
 
-    const { image,category, title,text_color, price, description } = content;
+    const { image,title,text_color, price, description } = content;
 
     const btnStyle={
         backgroundColor:text_color,
@@ -25,8 +26,8 @@ const DonationDetails = () => {
     }
 
     const handleDonateBtn=()=>{
-        setDataInLS(category);
-        console.log(category);
+        setDataInLS(title);
+        // console.log(title);
         swal("Thank You", "Your Donation has been Successful", "success");
     }
 

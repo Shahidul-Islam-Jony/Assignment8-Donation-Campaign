@@ -29,7 +29,7 @@ const router= createBrowserRouter([
         loader:()=>fetch('../public/donation.json')
       },
       {
-        path:'/donationDetails/:category',
+        path:'/donationDetails/:title',
         element:<DonationDetails></DonationDetails>
       }
     ]

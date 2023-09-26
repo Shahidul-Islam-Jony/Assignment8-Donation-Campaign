@@ -22,7 +22,7 @@ const Banner = () => {
 
     useEffect(() => {
         const cart = [];
-        const content = contents.filter(content => content.category === searchCategory);
+        const content = contents.filter(content => content.category.toLowerCase() === searchCategory.toLocaleLowerCase());
         if (content) {
             // console.log(content);
             cart.push(...content);
@@ -33,7 +33,7 @@ const Banner = () => {
         else{
             setSearchContents(contents)
         }
-    }, [searchCategory])
+    }, [searchCategory,contents])
 
     // console.log(contents);
 
@@ -52,7 +52,7 @@ const Banner = () => {
                                     <form onSubmit={handleInput}>
                                         <label className="input-group justify-center">
                                             <input ref={inputText} type="text" name="name" placeholder="Search here...." className="input input-bordered" />
-                                            <input className="bg-[#FF444A] text-white px-4 font-semibold" type="submit" value="Search" />
+                                            <input className="bg-[#FF444A] text-white px-4 font-semibold cursor-pointer" type="submit" value="Search" />
                                         </label>
                                     </form>
                                 </div>

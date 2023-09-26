@@ -7,9 +7,9 @@ const getDataFromLS=()=>{
     return [];
 }
 
-const setDataInLS=(category)=>{
+const setDataInLS=(title)=>{
     const data = getDataFromLS();
-    data.push(category);
+    data.push(title);
     const dataInString = JSON.stringify(data);
     localStorage.setItem("data",dataInString);
 }

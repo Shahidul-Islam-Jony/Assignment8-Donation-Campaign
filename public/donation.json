@@ -1,173 +1,171 @@
 [
-    { 
+    {
         "image": {
-            "link1":"https://i.ibb.co/MDfBjNy/Health.png",
-            "link2":"/src/assets/images/health2.jpg",
-            "link3":"/src/assets/images/health_rec.png"
+            "link1": "https://i.ibb.co/MDfBjNy/Health.png",
+            "link2": "/src/assets/images/health2.jpg",
+            "link3": "/src/assets/images/health_rec.png"
         },
         "title": "Clean water for children",
         "category": "Health",
         "category_bg": "#AEC7FF",
         "card_bg": "#D9E5FF",
         "text_color": "#0052FF",
-        "description": "Prioritize your well-being with our range of health products and supplements. From vitamins to fitness equipment, we've got you covered on your journey to a healthier life. Take the first step towards a better you today!",
+        "description": "Prioritize your well-being with our range of health products and supplements. From vitamins to fitness equipment, we've got you covered on your journey to a healthier life. Take the first step towards a better you today!..Prioritize your well-being with our range of health products and supplements. From vitamins to fitness equipment, we've got you covered on your journey to a healthier life. Take the first step towards a better you today!",
         "price": "$290"
     },
     {
         "image": {
-            "link1":"https://i.ibb.co/XZpw0Wj/Education.png",
-            "link2":"/src/assets/images/Education2.png",
-            "link3":"/src/assets/images/edu_rec.png"
+            "link1": "https://i.ibb.co/XZpw0Wj/Education.png",
+            "link2": "/src/assets/images/Education2.png",
+            "link3": "/src/assets/images/edu_rec.png"
         },
         "title": "Good education",
         "category": "Education",
         "category_bg": "#FFC4C5",
         "card_bg": "#FFE3E4",
         "text_color": "#FF444A",
-        "description": "Unlock the door to knowledge and personal growth with our educational resources. Whether you're a student or a lifelong learner, our books, courses, and tools will empower you to reach your full potential. Invest in your future now!",
+        "description": "Unlock the door to knowledge and personal growth with our educational resources. Whether you're a student or a lifelong learner, our books, courses, and tools will empower you to reach your full potential. Invest in your future now! . Unlock the door to knowledge and personal growth with our educational resources. Whether you're a student or a lifelong learner, our books, courses, and tools will empower you to reach your full potential. Invest in your future now!!",
         "price": "$150"
     },
     {
         "image": {
-            "link1":"https://i.ibb.co/3zTr5df/Clothing.png",
-            "link2":"/src/assets/images/clothes2.jpg",
-            "link3":"/src/assets/images/cloth_rec.png"
+            "link1": "https://i.ibb.co/3zTr5df/Clothing.png",
+            "link2": "/src/assets/images/clothes2.jpg",
+            "link3": "/src/assets/images/cloth_rec.png"
         },
         "title": "Used Clothing Drive",
         "category": "Clothing",
         "category_bg": "#D4ECC2 ",
         "card_bg": "#EBF6E2",
         "text_color": "#79C23F",
-        "description": "Elevate your style game with our trendy clothing collection. From chic dresses to comfortable casual wear, we have the perfect outfit for every occasion. Embrace fashion and express yourself with confidence!",
+        "description": "Elevate your style game with our trendy clothing collection. From chic dresses to comfortable casual wear, we have the perfect outfit for every occasion. Embrace fashion and express yourself with confidence!. Elevate your style game with our trendy clothing collection. From chic dresses to comfortable casual wear, we have the perfect outfit for every occasion. Embrace fashion and express yourself with confidence!.",
         "price": "$200"
     },
     {
         "image": {
-            "link1":"https://i.ibb.co/qjTCbyc/Food.png",
-            "link2":"/src/assets/images/food2.jpg",
-            "link3":"/src/assets/images/food_rec.png"
+            "link1": "https://i.ibb.co/qjTCbyc/Food.png",
+            "link2": "/src/assets/images/food2.jpg",
+            "link3": "/src/assets/images/food_rec.png"
         },
         "title": "Better Food for Everyone",
         "category": "Food",
         "category_bg": "#FDD2C4",
         "card_bg": "#FEEAE4",
         "text_color": "#F87147",
-        "description": "Indulge your taste buds in a culinary adventure like no other. Our diverse menu of delectable dishes from around the world will tantalize your senses and leave you craving for more. Experience the joy of food today!",
+        "description": "Indulge your taste buds in a culinary adventure like no other. Our diverse menu of delectable dishes from around the world will tantalize your senses and leave you craving for more. Experience the joy of food today!.Indulge your taste buds in a culinary adventure like no other. Our diverse menu of delectable dishes from around the world will tantalize your senses and leave you craving for more. Experience the joy of food today",
         "price": "$125"
     },
     {
         "image": {
-            "link1":"https://i.ibb.co/qjTCbyc/Food.png",
-            "link2":"/src/assets/images/food2.jpg",
-            "link3":"/src/assets/images/food_rec.png"
+            "link1": "/src/assets/images/education3.jpg",
+            "link2": "/src/assets/images/education3.jpg",
+            "link3": "/src/assets/images/education3.jpg"
         },
-        "title": "Better Food for Everyone",
-        "category": "Food",
-        "category_bg": "#FDD2C4",
-        "card_bg": "#FEEAE4",
-        "text_color": "#F87147",
-        "description": "Indulge your taste buds in a culinary adventure like no other. Our diverse menu of delectable dishes from around the world will tantalize your senses and leave you craving for more. Experience the joy of food today!",
-        "price": "$125"
-    },
-    {
-        "image": {
-            "link1":"https://i.ibb.co/3zTr5df/Clothing.png",
-            "link2":"/src/assets/images/clothes2.jpg",
-            "link3":"/src/assets/images/cloth_rec.png"
-        },
-        "title": "Used Clothing Drive",
-        "category": "Clothing",
-        "category_bg": "#D4ECC2 ",
-        "card_bg": "#EBF6E2",
-        "text_color": "#79C23F",
-        "description": "Elevate your style game with our trendy clothing collection. From chic dresses to comfortable casual wear, we have the perfect outfit for every occasion. Embrace fashion and express yourself with confidence!",
-        "price": "$200"
-    },
-    {
-        "image": {
-            "link1":"https://i.ibb.co/XZpw0Wj/Education.png",
-            "link2":"/src/assets/images/Education2.png",
-            "link3":"/src/assets/images/edu_rec.png"
-        },
-        "title": "Good education",
+        "title": "Education for All",
         "category": "Education",
         "category_bg": "#FFC4C5",
         "card_bg": "#FFE3E4",
         "text_color": "#FF444A",
-        "description": "Unlock the door to knowledge and personal growth with our educational resources. Whether you're a student or a lifelong learner, our books, courses, and tools will empower you to reach your full potential. Invest in your future now!",
-        "price": "$150"
+        "description": "Education for All is on a mission to support quality education for children worldwide. We believe that education is the key to breaking the cycle of poverty and empowering future generations. With your generous donation of $30, we can provide school supplies, educational resources, and scholarships to underprivileged students. Together, we can make a difference in the lives of these young learners, giving them the tools they need to succeed.",
+        "price": "$300"
     },
-
-    { 
+    {
         "image": {
-            "link1":"https://i.ibb.co/MDfBjNy/Health.png",
-            "link2":"/src/assets/images/health2.jpg",
-            "link3":"/src/assets/images/health_rec.png"
+            "link1": "/src/assets/images/health4.jpg",
+            "link2": "/src/assets/images/health4.jpg",
+            "link3": "/src/assets/images/health4.jpg"
         },
-        "title": "Clean water for children",
+        "title": "Healthy Lives Foundation",
         "category": "Health",
         "category_bg": "#AEC7FF",
         "card_bg": "#D9E5FF",
         "text_color": "#0052FF",
-        "description": "Prioritize your well-being with our range of health products and supplements. From vitamins to fitness equipment, we've got you covered on your journey to a healthier life. Take the first step towards a better you today!",
-        "price": "$290"
-    },
-   
-    { 
-        "image": {
-            "link1":"https://i.ibb.co/MDfBjNy/Health.png",
-            "link2":"/src/assets/images/health2.jpg",
-            "link3":"/src/assets/images/health_rec.png"
-        },
-        "title": "Clean water for children",
-        "category": "Health",
-        "category_bg": "#AEC7FF",
-        "card_bg": "#D9E5FF",
-        "text_color": "#0052FF",
-        "description": "Prioritize your well-being with our range of health products and supplements. From vitamins to fitness equipment, we've got you covered on your journey to a healthier life. Take the first step towards a better you today!",
-        "price": "$290"
+        "description": "Healthy Lives Foundation is dedicated to promoting health and well-being in underserved communities. We work tirelessly to ensure that everyone, regardless of their economic circumstances, has access to quality healthcare and health education. Through our various programs, we provide medical check-ups, vaccinations, and health education workshops to empower individuals and communities to lead healthier lives. Your donation of $50 can help us make a significant impact on the lives of those in need.",
+        "price": "$250"
     },
     {
         "image": {
-            "link1":"https://i.ibb.co/XZpw0Wj/Education.png",
-            "link2":"/src/assets/images/Education2.png",
-            "link3":"/src/assets/images/edu_rec.png"
+            "link1": "/src/assets/images/education4.jpg",
+            "link2": "/src/assets/images/education4.jpg",
+            "link3": "/src/assets/images/education4.jpg"
         },
-        "title": "Good education",
+        "title": "Books Beyond Borders",
         "category": "Education",
         "category_bg": "#FFC4C5",
         "card_bg": "#FFE3E4",
         "text_color": "#FF444A",
-        "description": "Unlock the door to knowledge and personal growth with our educational resources. Whether you're a student or a lifelong learner, our books, courses, and tools will empower you to reach your full potential. Invest in your future now!",
-        "price": "$150"
+        "description": "Books Beyond Borders is dedicated to distributing books and learning materials to disadvantaged students around the world. We believe that access to knowledge should not be limited by one's economic circumstances. Your donation of $25 can help us provide books to schools and libraries in underserved communities, opening up a world of opportunities for eager young minds.",
+        "price": "$250"
     },
     {
         "image": {
-            "link1":"https://i.ibb.co/3zTr5df/Clothing.png",
-            "link2":"/src/assets/images/clothes2.jpg",
-            "link3":"/src/assets/images/cloth_rec.png"
+            "link1": "/src/assets/images/cloth3.jpg",
+            "link2": "/src/assets/images/cloth3.jpg",
+            "link3": "/src/assets/images/cloth3.jpg"
         },
-        "title": "Used Clothing Drive",
+        "title": "Warm Hearts Clothing Drive",
         "category": "Clothing",
         "category_bg": "#D4ECC2 ",
         "card_bg": "#EBF6E2",
         "text_color": "#79C23F",
-        "description": "Elevate your style game with our trendy clothing collection. From chic dresses to comfortable casual wear, we have the perfect outfit for every occasion. Embrace fashion and express yourself with confidence!",
+        "description": "Warm Hearts Clothing Drive is dedicated to providing warm clothing to those facing winter hardships. In colder months, many individuals struggle to stay warm and safe. With your donation of $20, we can supply coats, blankets, and winter clothing to homeless shelters and individuals in need. Together, we can make winter a little bit more bearable for those less fortunate.",
         "price": "$200"
     },
     {
         "image": {
-            "link1":"https://i.ibb.co/qjTCbyc/Food.png",
-            "link2":"/src/assets/images/food2.jpg",
-            "link3":"/src/assets/images/food_rec.png"
+            "link1": "/src/assets/images/food1.jpg",
+            "link2": "/src/assets/images/food1.jpg",
+            "link3": "/src/assets/images/food1.jpg"
         },
-        "title": "Better Food for Everyone",
+        "title": "Hunger Relief Network",
         "category": "Food",
         "category_bg": "#FDD2C4",
         "card_bg": "#FEEAE4",
         "text_color": "#F87147",
-        "description": "Indulge your taste buds in a culinary adventure like no other. Our diverse menu of delectable dishes from around the world will tantalize your senses and leave you craving for more. Experience the joy of food today!",
-        "price": "$125"
+        "description": "Hunger Relief Network is on a mission to fight hunger by providing nutritious meals to the homeless and food-insecure individuals and families. With your generous donation of $10, we can expand our food distribution programs and reach even more people in need. Together, we can ensure that no one goes to bed hungry in our community.",
+        "price": "$170"
+    },
+    {
+        "image": {
+            "link1": "/src/assets/images/cloth4.jpg",
+            "link2": "/src/assets/images/cloth4.jpg",
+            "link3": "/src/assets/images/cloth4.jpg"
+        },
+        "title": "Dress for Success",
+        "category": "Clothing",
+        "category_bg": "#D4ECC2 ",
+        "card_bg": "#EBF6E2",
+        "text_color": "#79C23F",
+        "description": "Dress for Success is committed to empowering women through professional attire and career support. We believe that when women look and feel confident, they are better equipped to achieve their career goals. Your donation of $15 can help us provide business attire, interview coaching, and job readiness programs to women seeking employment. Together, we can empower women to reach their full potential.",
+        "price": "$150"
+    },
+    {
+        "image": {
+            "link1": "/src/assets/images/health5.jpg",
+            "link2": "/src/assets/images/health5.jpg",
+            "link3": "/src/assets/images/health5.jpg"
+        },
+        "title": "Global Medical Aid",
+        "category": "Health",
+        "category_bg": "#AEC7FF",
+        "card_bg": "#D9E5FF",
+        "text_color": "#0052FF",
+        "description": "Global Medical Aid is committed to providing medical care and supplies to those in need around the world. Our dedicated teams of medical professionals and volunteers work tirelessly in remote and impoverished areas to deliver essential healthcare services. We believe that access to medical care is a basic human right, and your donation of $40 can help us continue our life-saving work, providing hope and healing to individuals and communities in crisis.",
+        "price": "$240"
+    },
+    {
+        "image": {
+            "link1": "/src/assets/images/food3.jpg",
+            "link2": "/src/assets/images/food3.jpg",
+            "link3": "/src/assets/images/food3.jpg"
+        },
+        "title": "Food for All",
+        "category": "Food",
+        "category_bg": "#FDD2C4",
+        "card_bg": "#FEEAE4",
+        "text_color": "#F87147",
+        "description": "Food for All is dedicated to supporting food banks and ending food insecurity in communities. Your donation of $10 can help us purchase and distribute essential food items to families facing hunger. Together, we can work towards a future where everyone has access to nutritious food and no one has to worry about where their next meal will come from.",
+        "price": "$150"
     }
    
 ]
