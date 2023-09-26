@@ -4,9 +4,10 @@ import CategoryCards from "../../CategoryCards/CategoryCards";
 import { useEffect, useRef, useState } from "react";
 
 const Banner = () => {
-    const [contents,setContents] = useState([]);
+    const [contents, setContents] = useState([]);
+    const [searchContents, setSearchContents] = useState([]);
     const inputText = useRef(null);
-    const [searchCategory,setSearchCategory] = useState('');
+    const [searchCategory, setSearchCategory] = useState('');
 
     useEffect(() => {
         fetch('../../../public/donation.json')
@@ -14,11 +15,11 @@ const Banner = () => {
             .then(data => setContents(data))
     }, [])
 
-    const handleInput =(e)=>{
+    const handleInput = (e) => {
         e.preventDefault();
         setSearchCategory(inputText.current.value);
     }
-   
+
     useEffect(() => {
         const cart = [];
         const content = contents.filter(content => content.category === searchCategory);
@@ -26,9 +27,13 @@ const Banner = () => {
             // console.log(content);
             cart.push(...content);
         }
-        // console.log(cart);
-        setContents(cart)
-    },[searchCategory])
+        if(cart.length >0){
+            setSearchContents(cart)
+        }
+        else{
+            setSearchContents(contents)
+        }
+    }, [searchCategory])
 
     // console.log(contents);
 
@@ -47,7 +52,6 @@ const Banner = () => {
                                     <form onSubmit={handleInput}>
                                         <label className="input-group justify-center">
                                             <input ref={inputText} type="text" name="name" placeholder="Search here...." className="input input-bordered" />
-                                            {/* <span className="bg-[#FF444A] text-white ">Search</span> */}
                                             <input className="bg-[#FF444A] text-white px-4 font-semibold" type="submit" value="Search" />
                                         </label>
                                     </form>
@@ -60,7 +64,7 @@ const Banner = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-24 gap-6 w-11/12 mx-auto">
                 {
-                    contents.map((content, idx) => <CategoryCards key={idx} content={content}></CategoryCards>)
+                    searchContents.map((content, idx) => <CategoryCards key={idx} content={content}></CategoryCards>)
                 }
             </div>
         </div>
