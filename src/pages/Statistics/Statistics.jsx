@@ -4,15 +4,21 @@ import { getDataFromLS } from "../../components/LocalStorage/LocalStorage";
 
 
 const Statistics = () => {
-    const totalDonation = useLoaderData();
-    const yourDonation = getDataFromLS();
+    let totalDonation = useLoaderData();
+    let yourDonation = getDataFromLS();
+
+    if(yourDonation.length >12){
+        yourDonation.length = 12;
+    }
 
     const data = [
         ["title", "Donation"],
         ["Your Donation", yourDonation.length],
-        ["Total Donation", totalDonation.length],
+        ["Total Donation", totalDonation.length-yourDonation.length],
        
     ];
+
+   
     const options = {
         legend: { position: "bottom"},
       };

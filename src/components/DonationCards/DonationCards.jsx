@@ -29,8 +29,8 @@ const DonationCards = ({ content }) => {
 
     return (
         <div>
-            <div style={cardStyle} className="card card-side">
-                <figure><img src={image.link3} className='h-56' alt={category} /></figure>
+            <div style={cardStyle} className="card flex-col md:flex-row lg:flex-row card-side">
+                <figure><img src={image.link3} className='h-full' alt={category} /></figure>
                 <div className="card-body">
                     <h3 style={categoryStyle}>{category}</h3>
                     <h2 className='text-2xl font-bold'>{title}</h2>

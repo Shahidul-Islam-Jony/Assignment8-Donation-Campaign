@@ -29,7 +29,7 @@ const Donation = () => {
 
     return (
         <>
-            <div className="w-11/12 grid grid-cols-2 mt-28 mb-10 gap-6 mx-auto">
+            <div className="w-11/12 grid md:grid-cols-1 lg:grid-cols-2 mt-28 mb-10 gap-6 mx-auto">
                 {
                     // donatedContents.length !== 0 ?donatedContents.map((content, idx) => <DonationCards key={idx} content={content}></DonationCards>) : <p className="text-3xl font-bold">You have not donate yet</p>
 
