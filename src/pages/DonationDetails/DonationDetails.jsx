@@ -34,8 +34,8 @@ const DonationDetails = () => {
     return (
         <div className="mt-24 w-11/12 mx-auto">
             <div className="relative">
-                <img src={image?.link2} className="w-full rounded-lg  mx-auto h-[700px]" alt="" />
-                <div className="absolute z-30 bottom-0 p-9 bg-black bg-opacity-40 w-full">
+                <img src={image?.link2} className="w-full h-[350px] md:h-[500px] rounded-lg  mx-auto lg:h-[700px]" alt="" />
+                <div className="absolute bottom-0 p-4 md:p-7 lg:p-9 bg-black bg-opacity-40 w-full">
                     <button onClick={handleDonateBtn} className="text-xl font-bold" style={btnStyle}>Donate {price}</button>
                 </div>
             </div>

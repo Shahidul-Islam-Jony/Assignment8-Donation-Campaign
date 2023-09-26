@@ -6,7 +6,6 @@ const DonationCards = ({ content }) => {
 
     const cardStyle = {
         backgroundColor: card_bg,
-        height:'220px'
     }
     const textColor = {
         color: text_color,
@@ -30,8 +29,8 @@ const DonationCards = ({ content }) => {
 
     return (
         <div>
-            <div style={cardStyle} className="card flex-col md:flex-row lg:flex-row card-side">
-                <figure><img src={image.link3} className='w-60 h-56' alt={title} /></figure>
+            <div style={cardStyle} className="card flex-col  md:flex-row md:h-[220px] lg:flex-row lg:h-[220px] card-side">
+                <figure><img src={image.link3} className='w-full md:w-60 lg:w-60 h-56' alt={title} /></figure>
                 <div className="card-body p-6">
                     <h3 style={categoryStyle}>{category}</h3>
                     <h2 className='text-2xl font-bold'>{title}</h2>
