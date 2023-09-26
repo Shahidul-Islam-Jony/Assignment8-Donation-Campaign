@@ -3,7 +3,7 @@ import logo from '../../../assets/images/Logo.png';
 
 const Navbar = () => {
     const links = <div className="flex flex-col gap-4 lg:flex-row lg:gap-10 lg:text-lg">
-        <NavLink to="/home" className={({ isPending, isActive }) => isPending ? 'pending' : isActive ? 'text-red-500 underline' : ''}>Home</NavLink>
+        <NavLink to="/" className={({ isPending, isActive }) => isPending ? 'pending' : isActive ? 'text-red-500 underline' : ''}>Home</NavLink>
         <NavLink to="/donation" className={({ isPending, isActive }) => isPending ? 'pending' : isActive ? 'text-red-500 underline' : ''}>Donation</NavLink>
         <NavLink to="/statistics" className={({ isPending, isActive }) => isPending ? 'pending' : isActive ? 'text-red-500 underline' : ''}>Statistics</NavLink>
     </div>

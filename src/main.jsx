@@ -20,16 +20,13 @@ const router= createBrowserRouter([
         element:<Home></Home>,
       },
       {
-        path:'/home',
-        element:<Home></Home>,
-      },
-      {
         path:'/donation',
         element:<Donation></Donation>,
       },
       {
         path:'/statistics',
         element:<Statistics></Statistics>,
+        loader:()=>fetch('../public/donation.json')
       },
       {
         path:'/donationDetails/:category',
