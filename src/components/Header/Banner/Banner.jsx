@@ -27,20 +27,19 @@ const Banner = () => {
             // console.log(content);
             cart.push(...content);
         }
-        if(cart.length >0){
+        if (cart.length > 0) {
             setSearchContents(cart)
         }
-        else{
+        else {
             setSearchContents(contents)
         }
-    }, [searchCategory,contents])
+    }, [searchCategory, contents])
 
     // console.log(contents);
 
     return (
-
         <div>
-            <div className="hero min-h-full" style={{ backgroundImage: `url(${banner_img})` }}>
+            <div className="hero h-[600px] absolute z-10 top-0" style={{ backgroundImage: `url(${banner_img})` }}>
                 <div className="hero-overlay bg-white bg-opacity-90"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-full text-black">
@@ -62,13 +61,12 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-24 gap-6 w-11/12 mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 mb-44 mt-[570px] lg:grid-cols-4  gap-6 w-11/12 mx-auto">
                 {
                     searchContents.map((content, idx) => <CategoryCards key={idx} content={content}></CategoryCards>)
                 }
             </div>
         </div>
-
 
     );
 };

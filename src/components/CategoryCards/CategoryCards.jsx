@@ -24,7 +24,7 @@ const CategoryCards = ({ content }) => {
     }
 
     return (
-        <div>
+        <div className='z-20'>
             <Link to={`/donationDetails/${title}`}>
                 <div style={cardStyle} className="card rounded-lg card-compact">
                     <figure><img className='w-full h-64' src={image.link1} alt={category} /></figure>
