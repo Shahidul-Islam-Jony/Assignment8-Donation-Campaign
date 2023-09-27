@@ -10,7 +10,7 @@ const Banner = () => {
     const [searchCategory, setSearchCategory] = useState('');
 
     useEffect(() => {
-        fetch('../../../public/donation.json')
+        fetch('donation.json')
             .then(res => res.json())
             .then(data => setContents(data))
     }, [])
