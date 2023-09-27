@@ -8,7 +8,7 @@ const DonationDetails = () => {
     // console.log(titleDetails);
     const [content, setContent] = useState([]);
     useEffect(() => {
-        fetch('donation.json')
+        fetch('/donation.json')
         .then(res=>res.json())
         .then(contents=>setContent(contents?.find(data => data.title === titleDetails.title)))
     }, [titleDetails.title])
